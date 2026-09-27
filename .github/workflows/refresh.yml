@@ -1,0 +1,51 @@
+name: Refresh NSE price history
+
+on:
+  schedule:
+    # 01:15 UTC = 06:45 IST, Mon–Fri. GitHub can start scheduled jobs late,
+    # so this leaves room before the 08:00 IST analysis run.
+    - cron: "15 1 * * 1-5"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/refresh.yml"
+      - "requirements.txt"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Download prices and compute indicators
+        run: python scripts/fetch_nse.py
+
+      - name: Commit data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "data: refresh $(date -u +%Y-%m-%d)"
+            git pull --rebase origin main
+            git push
+          fi
