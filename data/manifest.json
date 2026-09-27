@@ -1,0 +1,23 @@
+{
+  "generated_at_utc": "2026-09-27T05:57:48Z",
+  "source": "Yahoo Finance via yfinance (NSE, .NS tickers)",
+  "universe": "Nifty 200",
+  "last_trading_date": "2026-09-25",
+  "nifty50_last_date": "2026-09-25",
+  "stocks_ok": 200,
+  "stocks_failed": [],
+  "stale_symbols": [],
+  "indices_ok": [
+    "NIFTY50",
+    "BANKNIFTY",
+    "INDIAVIX",
+    "NIFTYIT",
+    "NIFTYPHARMA",
+    "NIFTYAUTO",
+    "NIFTYMETAL",
+    "NIFTYFMCG",
+    "NIFTYREALTY",
+    "NIFTYENERGY",
+    "NIFTYMIDCAP100"
+  ]
+}
