@@ -1,9 +1,9 @@
 {
-  "generated_at_utc": "2026-09-27T05:57:48Z",
+  "generated_at_utc": "2026-09-28T06:48:22Z",
   "source": "Yahoo Finance via yfinance (NSE, .NS tickers)",
   "universe": "Nifty 200",
-  "last_trading_date": "2026-09-25",
-  "nifty50_last_date": "2026-09-25",
+  "last_trading_date": "2026-09-28",
+  "nifty50_last_date": "2026-09-28",
   "stocks_ok": 200,
   "stocks_failed": [],
   "stale_symbols": [],
@@ -19,5 +19,6 @@
     "NIFTYREALTY",
     "NIFTYENERGY",
     "NIFTYMIDCAP100"
-  ]
+  ],
+  "indices_short": []
 }
