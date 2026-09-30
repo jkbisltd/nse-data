@@ -10,8 +10,8 @@ Adani Ports and Special Economic Zone Ltd.,Services,ADANIPORTS,EQ,INE742F01042,A
 Adani Power Ltd.,Power,ADANIPOWER,EQ,INE814H01029,ADANIPOWER.NS,ADANIPOWER.csv
 Adani Total Gas Ltd.,Oil Gas & Consumable Fuels,ATGL,EQ,INE399L01023,ATGL.NS,ATGL.csv
 Aditya Birla Capital Ltd.,Financial Services,ABCAPITAL,EQ,INE674K01013,ABCAPITAL.NS,ABCAPITAL.csv
-Alkem Laboratories Ltd.,Healthcare,ALKEM,EQ,INE540L01014,ALKEM.NS,ALKEM.csv
 Ambuja Cements Ltd.,Construction Materials,AMBUJACEM,EQ,INE079A01024,AMBUJACEM.NS,AMBUJACEM.csv
+Apar Industries Ltd.,Capital Goods,APARINDS,EQ,INE372A01015,APARINDS.NS,APARINDS.csv
 Apollo Hospitals Enterprise Ltd.,Healthcare,APOLLOHOSP,EQ,INE437A01024,APOLLOHOSP.NS,APOLLOHOSP.csv
 Ashok Leyland Ltd.,Capital Goods,ASHOKLEY,EQ,INE208A01029,ASHOKLEY.NS,ASHOKLEY.csv
 Asian Paints Ltd.,Consumer Durables,ASIANPAINT,EQ,INE021A01026,ASIANPAINT.NS,ASIANPAINT.csv
@@ -26,6 +26,7 @@ Bajaj Finserv Ltd.,Financial Services,BAJAJFINSV,EQ,INE918I01026,BAJAJFINSV.NS,B
 Bajaj Holdings & Investment Ltd.,Financial Services,BAJAJHLDNG,EQ,INE118A01012,BAJAJHLDNG.NS,BAJAJHLDNG.csv
 Bank of Baroda,Financial Services,BANKBARODA,EQ,INE028A01039,BANKBARODA.NS,BANKBARODA.csv
 Bank of India,Financial Services,BANKINDIA,EQ,INE084A01016,BANKINDIA.NS,BANKINDIA.csv
+Bank of Maharashtra,Financial Services,MAHABANK,EQ,INE457A01014,MAHABANK.NS,MAHABANK.csv
 Bharat Dynamics Ltd.,Capital Goods,BDL,EQ,INE171Z01026,BDL.NS,BDL.csv
 Bharat Electronics Ltd.,Capital Goods,BEL,EQ,INE263A01024,BEL.NS,BEL.csv
 Bharat Forge Ltd.,Automobile and Auto Components,BHARATFORG,EQ,INE465A01025,BHARATFORG.NS,BHARATFORG.csv
@@ -46,7 +47,6 @@ Cochin Shipyard Ltd.,Capital Goods,COCHINSHIP,EQ,INE704P01025,COCHINSHIP.NS,COCH
 Coforge Ltd.,Information Technology,COFORGE,EQ,INE591G01025,COFORGE.NS,COFORGE.csv
 Colgate Palmolive (India) Ltd.,Fast Moving Consumer Goods,COLPAL,EQ,INE259A01022,COLPAL.NS,COLPAL.csv
 Container Corporation of India Ltd.,Services,CONCOR,EQ,INE111A01025,CONCOR.NS,CONCOR.csv
-Coromandel International Ltd.,Chemicals,COROMANDEL,EQ,INE169A01031,COROMANDEL.NS,COROMANDEL.csv
 Cummins India Ltd.,Capital Goods,CUMMINSIND,EQ,INE298A01020,CUMMINSIND.NS,CUMMINSIND.csv
 DLF Ltd.,Realty,DLF,EQ,INE271C01023,DLF.NS,DLF.csv
 Dabur India Ltd.,Fast Moving Consumer Goods,DABUR,EQ,INE016A01026,DABUR.NS,DABUR.csv
@@ -75,11 +75,11 @@ Havells India Ltd.,Consumer Durables,HAVELLS,EQ,INE176B01034,HAVELLS.NS,HAVELLS.
 Hero MotoCorp Ltd.,Automobile and Auto Components,HEROMOTOCO,EQ,INE158A01026,HEROMOTOCO.NS,HEROMOTOCO.csv
 Hindalco Industries Ltd.,Metals & Mining,HINDALCO,EQ,INE038A01020,HINDALCO.NS,HINDALCO.csv
 Hindustan Aeronautics Ltd.,Capital Goods,HAL,EQ,INE066F01020,HAL.NS,HAL.csv
+Hindustan Copper Ltd.,Metals & Mining,HINDCOPPER,EQ,INE531E01026,HINDCOPPER.NS,HINDCOPPER.csv
 Hindustan Petroleum Corporation Ltd.,Oil Gas & Consumable Fuels,HINDPETRO,EQ,INE094A01015,HINDPETRO.NS,HINDPETRO.csv
 Hindustan Unilever Ltd.,Fast Moving Consumer Goods,HINDUNILVR,EQ,INE030A01027,HINDUNILVR.NS,HINDUNILVR.csv
 Hindustan Zinc Ltd.,Metals & Mining,HINDZINC,EQ,INE267A01025,HINDZINC.NS,HINDZINC.csv
 Hitachi Energy India Ltd.,Capital Goods,POWERINDIA,EQ,INE07Y701011,POWERINDIA.NS,POWERINDIA.csv
-Housing & Urban Development Corporation Ltd.,Financial Services,HUDCO,EQ,INE031A01017,HUDCO.NS,HUDCO.csv
 Hyundai Motor India Ltd.,Automobile and Auto Components,HYUNDAI,EQ,INE0V6F01027,HYUNDAI.NS,HYUNDAI.csv
 ICICI Bank Ltd.,Financial Services,ICICIBANK,EQ,INE090A01021,ICICIBANK.NS,ICICIBANK.csv
 ICICI Lombard General Insurance Company Ltd.,Financial Services,ICICIGI,EQ,INE765G01017,ICICIGI.NS,ICICIGI.csv
@@ -103,7 +103,6 @@ Jindal Steel Ltd.,Metals & Mining,JINDALSTEL,EQ,INE749A01030,JINDALSTEL.NS,JINDA
 Jio Financial Services Ltd.,Financial Services,JIOFIN,EQ,INE758E01017,JIOFIN.NS,JIOFIN.csv
 Jubilant Foodworks Ltd.,Consumer Services,JUBLFOOD,EQ,INE797F01020,JUBLFOOD.NS,JUBLFOOD.csv
 KEI Industries Ltd.,Capital Goods,KEI,EQ,INE878B01027,KEI.NS,KEI.csv
-KPIT Technologies Ltd.,Information Technology,KPITTECH,EQ,INE04I401011,KPITTECH.NS,KPITTECH.csv
 Kalyan Jewellers India Ltd.,Consumer Durables,KALYANKJIL,EQ,INE303R01014,KALYANKJIL.NS,KALYANKJIL.csv
 Kotak Mahindra Bank Ltd.,Financial Services,KOTAKBANK,EQ,INE237A01036,KOTAKBANK.NS,KOTAKBANK.csv
 L&T Finance Ltd.,Financial Services,LTF,EQ,INE498L01015,LTF.NS,LTF.csv
@@ -113,6 +112,7 @@ LTM Ltd.,Information Technology,LTM,EQ,INE214T01019,LTM.NS,LTM.csv
 Larsen & Toubro Ltd.,Construction,LT,EQ,INE018A01030,LT.NS,LT.csv
 Laurus Labs Ltd.,Healthcare,LAURUSLABS,EQ,INE947Q01028,LAURUSLABS.NS,LAURUSLABS.csv
 Lenskart Solutions Ltd.,Consumer Services,LENSKART,EQ,INE956O01016,LENSKART.NS,LENSKART.csv
+Life Insurance Corporation of India,Financial Services,LICI,EQ,INE0J1Y01017,LICI.NS,LICI.csv
 Lodha Developers Ltd.,Realty,LODHA,EQ,INE670K01029,LODHA.NS,LODHA.csv
 Lupin Ltd.,Healthcare,LUPIN,EQ,INE326A01037,LUPIN.NS,LUPIN.csv
 MRF Ltd.,Automobile and Auto Components,MRF,EQ,INE883A01011,MRF.NS,MRF.csv
@@ -124,11 +124,13 @@ Maruti Suzuki India Ltd.,Automobile and Auto Components,MARUTI,EQ,INE585B01010,M
 Max Financial Services Ltd.,Financial Services,MFSL,EQ,INE180A01020,MFSL.NS,MFSL.csv
 Max Healthcare Institute Ltd.,Healthcare,MAXHEALTH,EQ,INE027H01010,MAXHEALTH.NS,MAXHEALTH.csv
 Mazagoan Dock Shipbuilders Ltd.,Capital Goods,MAZDOCK,EQ,INE249Z01020,MAZDOCK.NS,MAZDOCK.csv
+Meesho Ltd.,Consumer Services,MEESHO,EQ,INE0VDM01015,MEESHO.NS,MEESHO.csv
 Motilal Oswal Financial Services Ltd.,Financial Services,MOTILALOFS,EQ,INE338I01027,MOTILALOFS.NS,MOTILALOFS.csv
 MphasiS Ltd.,Information Technology,MPHASIS,EQ,INE356A01018,MPHASIS.NS,MPHASIS.csv
 Multi Commodity Exchange of India Ltd.,Financial Services,MCX,EQ,INE745G01043,MCX.NS,MCX.csv
 Muthoot Finance Ltd.,Financial Services,MUTHOOTFIN,EQ,INE414G01012,MUTHOOTFIN.NS,MUTHOOTFIN.csv
 NHPC Ltd.,Power,NHPC,EQ,INE848E01016,NHPC.NS,NHPC.csv
+NLC India Ltd.,Power,NLCINDIA,EQ,INE589A01014,NLCINDIA.NS,NLCINDIA.csv
 NMDC Ltd.,Metals & Mining,NMDC,EQ,INE584A01023,NMDC.NS,NMDC.csv
 NTPC Ltd.,Power,NTPC,EQ,INE733E01010,NTPC.NS,NTPC.csv
 National Aluminium Co. Ltd.,Metals & Mining,NATIONALUM,EQ,INE139A01034,NATIONALUM.NS,NATIONALUM.csv
@@ -159,7 +161,6 @@ SBI Cards and Payment Services Ltd.,Financial Services,SBICARD,EQ,INE018E01016,S
 SBI Life Insurance Company Ltd.,Financial Services,SBILIFE,EQ,INE123W01016,SBILIFE.NS,SBILIFE.csv
 SRF Ltd.,Chemicals,SRF,EQ,INE647A01010,SRF.NS,SRF.csv
 Samvardhana Motherson International Ltd.,Automobile and Auto Components,MOTHERSON,EQ,INE775A01035,MOTHERSON.NS,MOTHERSON.csv
-Shree Cement Ltd.,Construction Materials,SHREECEM,EQ,INE070A01015,SHREECEM.NS,SHREECEM.csv
 Shriram Finance Ltd.,Financial Services,SHRIRAMFIN,EQ,INE721A01047,SHRIRAMFIN.NS,SHRIRAMFIN.csv
 Siemens Energy India Ltd.,Capital Goods,ENRIN,EQ,INE1NPP01017,ENRIN.NS,ENRIN.csv
 Siemens Ltd.,Capital Goods,SIEMENS,EQ,INE003A01024,SIEMENS.NS,SIEMENS.csv
@@ -175,8 +176,6 @@ Tata Capital Ltd.,Financial Services,TATACAP,EQ,INE976I01016,TATACAP.NS,TATACAP.
 Tata Communications Ltd.,Telecommunication,TATACOMM,EQ,INE151A01013,TATACOMM.NS,TATACOMM.csv
 Tata Consultancy Services Ltd.,Information Technology,TCS,EQ,INE467B01029,TCS.NS,TCS.csv
 Tata Consumer Products Ltd.,Fast Moving Consumer Goods,TATACONSUM,EQ,INE192A01025,TATACONSUM.NS,TATACONSUM.csv
-Tata Elxsi Ltd.,Information Technology,TATAELXSI,EQ,INE670A01012,TATAELXSI.NS,TATAELXSI.csv
-Tata Investment Corporation Ltd.,Financial Services,TATAINVEST,EQ,INE672A01026,TATAINVEST.NS,TATAINVEST.csv
 Tata Motors Ltd.,Capital Goods,TMCV,EQ,INE1TAE01010,TMCV.NS,TMCV.csv
 Tata Motors Passenger Vehicles Ltd.,Automobile and Auto Components,TMPV,EQ,INE155A01022,TMPV.NS,TMPV.csv
 Tata Power Co. Ltd.,Power,TATAPOWER,EQ,INE245A01021,TATAPOWER.NS,TATAPOWER.csv
@@ -191,6 +190,7 @@ UltraTech Cement Ltd.,Construction Materials,ULTRACEMCO,EQ,INE481G01011,ULTRACEM
 Union Bank of India,Financial Services,UNIONBANK,EQ,INE692A01016,UNIONBANK.NS,UNIONBANK.csv
 United Spirits Ltd.,Fast Moving Consumer Goods,UNITDSPR,EQ,INE854D01024,UNITDSPR.NS,UNITDSPR.csv
 Varun Beverages Ltd.,Fast Moving Consumer Goods,VBL,EQ,INE200M01039,VBL.NS,VBL.csv
+Vedanta Aluminium Metal Ltd.,Metals & Mining,VAML,EQ,INE1CDF01017,VAML.NS,VAML.csv
 Vedanta Ltd.,Metals & Mining,VEDL,EQ,INE205A01025,VEDL.NS,VEDL.csv
 Vishal Mega Mart Ltd.,Consumer Services,VMM,EQ,INE01EA01019,VMM.NS,VMM.csv
 Vodafone Idea Ltd.,Telecommunication,IDEA,EQ,INE669E01016,IDEA.NS,IDEA.csv
