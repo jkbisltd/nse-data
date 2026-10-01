@@ -1,5 +1,7 @@
 {
-  "generated_at_utc": "2026-10-01T07:12:24Z",
+  "generated_at_utc": "2026-10-01T13:17:48Z",
+  "generated_at_ist": "2026-10-01 18:47 IST",
+  "session_complete_at_run": true,
   "source": "Yahoo Finance via yfinance (NSE, .NS tickers)",
   "universe": "Nifty 200",
   "last_trading_date": "2026-10-01",
