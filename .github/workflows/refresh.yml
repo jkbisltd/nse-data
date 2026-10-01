@@ -2,9 +2,12 @@ name: Refresh NSE price history
 
 on:
   schedule:
-    # 01:15 UTC = 06:45 IST, Mon–Fri. GitHub can start scheduled jobs late,
-    # so this leaves room before the 08:00 IST analysis run.
-    - cron: "15 1 * * 1-5"
+    # GitHub has been starting these ~5.5 h late, so don't rely on the morning slot.
+    # Main run: 10:37 UTC = 16:07 IST, after the close. Even hours late it lands
+    # before the next 08:00 IST analysis run. Odd minutes avoid the busy :00/:15 slots.
+    - cron: "37 10 * * 1-5"
+    # Backup: 00:47 UTC = 06:17 IST, picks up anything the evening run missed.
+    - cron: "47 0 * * 2-6"
   workflow_dispatch:
   push:
     branches: [main]
