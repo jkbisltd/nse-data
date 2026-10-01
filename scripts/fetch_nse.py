@@ -16,7 +16,7 @@ import json
 import re
 import sys
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import pandas as pd
@@ -56,6 +56,28 @@ HEADERS = {
     "Referer": "https://www.niftyindices.com/",
 }
 PERIOD = "2y"
+IST = timezone(timedelta(hours=5, minutes=30))
+# NSE closes at 15:30 IST; Yahoo's daily bar settles a few minutes later.
+SESSION_FINAL_IST = (15, 45)
+
+
+def now_ist() -> datetime:
+    return datetime.now(IST)
+
+
+def session_complete(ts: datetime | None = None) -> bool:
+    """True once today's NSE session is over (or it is a weekend)."""
+    ts = ts or now_ist()
+    return ts.weekday() >= 5 or (ts.hour, ts.minute) >= SESSION_FINAL_IST
+
+
+def drop_partial_session(df: pd.DataFrame) -> pd.DataFrame:
+    """Drop today's bar while the market is still open, so a run that starts
+    during trading hours never publishes a half-day candle as a full session."""
+    if session_complete() or df.empty:
+        return df
+    today = pd.Timestamp(now_ist().date())
+    return df[df.index < today]
 MIN_INDEX_ROWS = 200  # fewer rows than this means Yahoo gave us a stub, not history
 
 # Names used in NSE's daily all-indices archive, for indices Yahoo serves badly.
@@ -102,7 +124,7 @@ def clean(df: pd.DataFrame) -> pd.DataFrame:
     df = df[cols].dropna(subset=["Close"])
     df.index = pd.to_datetime(df.index).tz_localize(None)
     df.index.name = "Date"
-    return df.round(4)
+    return drop_partial_session(df).round(4)
 
 
 def download(tickers: list[str]) -> dict[str, pd.DataFrame]:
@@ -213,6 +235,7 @@ def main() -> None:
         if df is None:
             failed.append(row["Symbol"])
             continue
+        df = merge_history(OHLCV / row["file"], df)  # keep days Yahoo skips
         df.to_csv(OHLCV / row["file"])
         snap = snapshot(df, bench)
         if snap:
@@ -225,6 +248,8 @@ def main() -> None:
     last_dates = ind["date"].value_counts()
     manifest = {
         "generated_at_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "generated_at_ist": now_ist().strftime("%Y-%m-%d %H:%M IST"),
+        "session_complete_at_run": session_complete(),
         "source": "Yahoo Finance via yfinance (NSE, .NS tickers)",
         "universe": "Nifty 200",
         "last_trading_date": last_dates.index[0] if len(last_dates) else None,
