@@ -1,9 +1,9 @@
 {
-  "generated_at_utc": "2026-09-30T06:44:44Z",
+  "generated_at_utc": "2026-10-01T07:12:24Z",
   "source": "Yahoo Finance via yfinance (NSE, .NS tickers)",
   "universe": "Nifty 200",
-  "last_trading_date": "2026-09-30",
-  "nifty50_last_date": "2026-09-30",
+  "last_trading_date": "2026-10-01",
+  "nifty50_last_date": "2026-10-01",
   "stocks_ok": 200,
   "stocks_failed": [],
   "stale_symbols": [],
