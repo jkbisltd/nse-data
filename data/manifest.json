@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-11-10T07:48:05Z",
-  "generated_at_ist": "2026-11-10 13:18 IST",
-  "session_complete_at_run": false,
+  "generated_at_utc": "2026-11-10T18:11:26Z",
+  "generated_at_ist": "2026-11-10 23:41 IST",
+  "session_complete_at_run": true,
   "source": "Yahoo Finance via yfinance (NSE, .NS tickers)",
   "universe": "Nifty 200",
   "last_trading_date": "2026-11-09",
